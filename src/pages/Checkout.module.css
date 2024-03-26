@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    min-height: 600px;
+}
+
+.products {
+    width: 100%;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+}
+
+.empty img {
+    width: 40%;
+    margin: auto;
+}
+
+.empty h2 {
+    text-align: center;
+}
+
+.empty a {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+}
