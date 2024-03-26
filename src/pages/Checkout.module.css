@@ -29,3 +29,11 @@
     font-size: 1.1rem;
     padding: 10px;
 }
+
+@media (max-width: 680px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
